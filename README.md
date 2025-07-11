@@ -9,7 +9,7 @@ Este projeto tem o objetivo de simular a instalação de uma rede de vigilância
 ## Estrutura do projeto
 
 
-## Passos para usar o sistema
+## Passos para usar o programa
 
 1. Tenha um compilador de C
 2. Clone este repositório
