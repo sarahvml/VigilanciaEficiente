@@ -172,4 +172,4 @@ Este projeto é de uso livre para fins educacionais.
 
 ---
 
-Feito por Diego Miqueias, Sarah Marques e Carlos Eduardo
+Feito por Carlos Eduardo, Diego Miqueias e Sarah Marques
