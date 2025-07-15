@@ -44,7 +44,7 @@ Este projeto tem o objetivo de simular a instalação de uma rede de vigilância
 
 O código está organizado em vários arquivos:
 
-- **1**. `main.c` - Contém a lógica principal do programa e a interface do usuário
+- **1**. `main.c` - Contém a lógica principal do programa e a interface do usuário.
 - **2**. `leitura.h` e `leitura.c` - Responsáveis pela leitura dos arquivos de entrada.
 - **3**. `algoritmo.h` e `algoritmo.c` - Implementam o algoritmo guloso para resolver o problema.
 - **4**. Arquivos de teste (`n_5_m_6.txt`, `n_6_m_8.txt`, `n_8_m_12.txt`) - Contêm exemplos de redes de pontos e conexões.
@@ -68,10 +68,10 @@ EOF
 
 O programa funciona da seguinte maneira:
 
-- **1**. O usuário seleciona um arquivo contendo a descrição da rede (pontos e conexões)
-- **2**. O programa lê o arquivo e armazena as conexões
-- **3**.O algoritmo guloso é aplicado para encontrar o número mínimo de câmeras
-- **4** .Os resultados são exibidos ao usuário
+- **1**. O usuário seleciona um arquivo contendo a descrição da rede (pontos e conexões);
+- **2**. O programa lê o arquivo e armazena as conexões;
+- **3**. O algoritmo guloso é aplicado para encontrar o número mínimo de câmeras;
+- **4**. Os resultados são exibidos ao usuário.
 ---
 ## Leitura do Arquivo  (`leitura.h` e `leitura.c`)
 ```bash
@@ -87,10 +87,10 @@ int ler_arquivo(const char *nome_arquivo, Conexao **conexoes, int *num_conexoes,
 
 Esta função:
 
-- **1**. Abre o arquivo especificado
-- **2** .Lê os dois primeiros números: número de pontos e de conexões
-- **3** .Aloca memória e armazena as conexões lidas
-- **4**. Retorna 0 em caso de sucesso ou -1 em erro
+- **1**. Abre o arquivo especificado;
+- **2**. Lê os dois primeiros números: número de pontos e de conexões;
+- **3**. Aloca memória e armazena as conexões lidas;
+- **4**. Retorna 0 em caso de sucesso ou -1 em erro.
 
 ## Algoritmo Guloso (`algoritmo.h` e `algoritmo.c`)
 ```bash
@@ -105,19 +105,19 @@ num_pontos)
 ```
 
 ### Funcionamento:
-1. Inicializa estruturas de controle
+1. Inicializa estruturas de controle;
 2. Em um loop:
- a. Para cada ponto, calcula quantas conexões não vigiadas ele cobre
- b. Seleciona o ponto com maior cobertura
- c. Atualiza conexões vigiadas
-3. Retorna a solução
+ a. Para cada ponto, calcula quantas conexões não vigiadas ele cobre;
+ b. Seleciona o ponto com maior cobertura;
+ c. Atualiza conexões vigiadas.
+3. Retorna a solução.
 
 ## Interface do Usuário (`main.c`)
 
 Fluxo:
-1. Exibe menu com opções
-2. Carrega e processa o arquivo escolhido
-3. Exibe resultado final
+1. Exibe menu com opções;
+2. Carrega e processa o arquivo escolhido;
+3. Exibe resultado final.
 A função `processar_arquivo()` gerencia a leitura e chamada do algoritmo guloso.
 
 
