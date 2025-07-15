@@ -2,6 +2,7 @@
 #include "algoritmo.h"
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 void mostra_menu_principal(){
     printf("\n=== Vigilancia eficiente ===\n");
