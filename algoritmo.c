@@ -36,7 +36,7 @@ Solucao encontrar_minimo_cameras_guloso(Conexao *conexoes, int num_conexoes, int
         int max_cobertura = 0;
 
         for (int p = 0; p < num_pontos; p++) {
-            // Verifica se o ponto já foi selecionado antes de considerar
+           
             if (!ponto_ja_selecionado(p, solucao.pontos, solucao.tamanho, 0)) {
                 int cobertura = contar_cobertura(p, conexoes, num_conexoes, vigiadas);
                 if (cobertura > max_cobertura) {
