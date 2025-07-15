@@ -10,7 +10,7 @@ typedef struct {
 
 bool ponto_ja_selecionado(int ponto, int *pontos_selecionados, int tamanho, int index);
 
-// Algoritmo guloso original (não alterado)
+
 Solucao encontrar_minimo_cameras_guloso(Conexao *conexoes, int num_conexoes, int num_pontos);
 
 #endif
