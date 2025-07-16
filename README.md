@@ -25,7 +25,7 @@ Este projeto tem o objetivo de simular a instalação de uma rede de vigilância
    ```
 
     ```bash
-   cd VigilanciaEficiente
+   cd VigilanciaEficiente-main
    ```
   
 2. Compile o código:
