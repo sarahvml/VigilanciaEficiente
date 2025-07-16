@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#define text_max 100
 
 void mostra_menu_principal(){
     printf("\n=== Vigilancia eficiente ===\n");
@@ -48,7 +49,7 @@ void processar_arquivo(const char *nome_arquivo) {
 
 int main(){
     int opcao;
-    char nome_arquivo[100];
+    char nome_arquivo[text_max];
 
     do {
         mostra_menu_principal();
